@@ -1,0 +1,753 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shaik Nazeer | Civil Engineer</title>
+  <meta name="description" content="Portfolio of Shaik Nazeer, a civil engineer focused on residential building design, 2D drafting, Revit BIM modeling, construction planning, and site engineering." />
+  
+  <!-- Favicon / SVG icon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23173F4F'><path d='M12 2L2 22h20L12 2zm0 4.5l6.5 13.5h-13L12 6.5z'/></svg>" />
+
+  <!-- Google Fonts: DM Sans & Sora -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Sora:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="./assets/css/style.css?v=2" />
+</head>
+<body>
+
+  <!-- ========================================================
+       1. NAVIGATION BAR
+       ======================================================== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#home" class="nav-logo" aria-label="Shaik Nazeer Homepage">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="10"></circle>
+          <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon>
+        </svg>
+        <span>Nazeer.</span>
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="#home" class="nav-link active" data-section="home">Home</a></li>
+        <li><a href="#about" class="nav-link" data-section="about">About Me</a></li>
+        <li><a href="#journey" class="nav-link" data-section="journey">Journey</a></li>
+        <li><a href="#skills" class="nav-link" data-section="skills">Skills</a></li>
+        <li><a href="#projects" class="nav-link" data-section="projects">Projects</a></li>
+        <li><a href="#experience" class="nav-link" data-section="experience">Experience</a></li>
+        <li><a href="#contact" class="nav-link" data-section="contact">Contact</a></li>
+      </ul>
+
+      <div style="display: flex; align-items: center; gap: 1rem;">
+        <a href="#contact" class="btn-connect">Let's Connect -></a>
+        <button class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mobile Dropdown Menu -->
+  <div class="mobile-menu" id="mobile-menu">
+    <a href="#home" class="nav-link" data-section="home">Home</a>
+    <a href="#about" class="nav-link" data-section="about">About Me</a>
+    <a href="#journey" class="nav-link" data-section="journey">Learning Journey</a>
+    <a href="#skills" class="nav-link" data-section="skills">Skills</a>
+    <a href="#projects" class="nav-link" data-section="projects">Projects</a>
+    <a href="#experience" class="nav-link" data-section="experience">Experience</a>
+    <a href="#exploring" class="nav-link" data-section="exploring">Currently Exploring</a>
+    <a href="#contact" class="nav-link" data-section="contact">Contact</a>
+    <div style="margin-top: 1rem;">
+      <a href="#contact" class="btn-connect" style="display: block; text-align: center;">Let's Connect -></a>
+    </div>
+  </div>
+
+  <main>
+    <!-- ========================================================
+         2. HERO SECTION
+         ======================================================== -->
+    <section class="section" id="home">
+      <div class="hero-grid">
+        <div class="hero-content">
+          <div class="hero-tag">
+            <span><i class="fa-solid fa-compass-drafting" aria-hidden="true"></i> HELLO, I'M NAZEER</span>
+          </div>
+          <h1 class="hero-h1">
+            I'm learning to turn <span class="accent">building ideas</span> into reality.
+          </h1>
+          <p class="hero-desc">
+            I'm a civil engineer focused on building design, technical drawings, construction planning, and practical site execution.
+          </p>
+          <div class="hero-badge">
+            <i class="fa-solid fa-graduation-cap" style="margin-right: 0.5rem; color: #173F4F;"></i>
+            Civil Engineer | B.Tech Civil Engineering | Lovely Professional University
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-drawing-card">
+            <img class="hero-profile-photo" src="assets/images/nazeer-profile.png" alt="Shaik Nazeer, civil engineer" />
+            <!-- Architectural drafting grid header -->
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:1rem; border-bottom:1px solid #D9DED9; padding-bottom:0.75rem;">
+              <div style="font-family:'Space Grotesk',sans-serif; font-size:0.75rem; font-weight:700; color:#173F4F; letter-spacing:0.08em; display:flex; align-items:center; gap:0.5rem;">
+                <span style="display:inline-block; width:8px; height:8px; border-radius:50%; background:#173F4F;"></span>
+                ARCHITECTURAL DRAFTING BOARD | LEVEL 01
+              </div>
+              <span style="font-size:0.7rem; color:#C58B45; font-family:monospace;">SCALE: 1:100</span>
+            </div>
+
+            <!-- Stylized Architectural Plan SVG -->
+            <svg viewBox="0 0 460 330" class="floor-plan-svg" xmlns="http://www.w3.org/2000/svg" style="width:100%; height:auto;">
+              <defs>
+                <pattern id="cadGrid" width="20" height="20" patternUnits="userSpaceOnUse">
+                  <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#D9DED9" stroke-width="0.5" />
+                </pattern>
+                <marker id="arrowCAD" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+                  <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#173F4F" />
+                </marker>
+              </defs>
+
+              <!-- Grid background -->
+              <rect x="0" y="0" width="460" height="330" fill="url(#cadGrid)" opacity="0.7" />
+
+              <!-- Outer Building Boundary -->
+              <rect x="40" y="30" width="370" height="240" fill="#F4F1EA" stroke="#173F4F" stroke-width="4" rx="2" />
+
+              <!-- Master Bedroom -->
+              <rect class="highlight-room" x="42" y="32" width="180" height="130" fill="#FFFFFF" stroke="#173F4F" stroke-width="2" />
+              <text x="75" y="90" font-family="'Space Grotesk',sans-serif" font-size="11" font-weight="700" fill="#173F4F">MASTER BEDROOM</text>
+              <text x="85" y="108" font-family="'Manrope',sans-serif" font-size="9" fill="#718087">12'-0" Ã— 14'-0"</text>
+
+              <!-- Kitchen & Dining -->
+              <rect class="highlight-room" x="222" y="32" width="186" height="110" fill="#FFFFFF" stroke="#173F4F" stroke-width="2" />
+              <text x="260" y="80" font-family="'Space Grotesk',sans-serif" font-size="11" font-weight="700" fill="#173F4F">KITCHEN / UTILITY</text>
+              <text x="280" y="98" font-family="'Manrope',sans-serif" font-size="9" fill="#718087">10'-6" Ã— 9'-0"</text>
+
+              <!-- Living Hall -->
+              <rect class="highlight-room" x="42" y="162" width="240" height="106" fill="#FFFFFF" stroke="#173F4F" stroke-width="2" />
+              <text x="110" y="210" font-family="'Space Grotesk',sans-serif" font-size="12" font-weight="700" fill="#173F4F">LIVING & LOUNGE</text>
+              <text x="125" y="228" font-family="'Manrope',sans-serif" font-size="9" fill="#718087">16'-0" Ã— 13'-6"</text>
+
+              <!-- Staircase & Foyer -->
+              <rect class="highlight-room" x="282" y="142" width="126" height="126" fill="#F4F1EA" stroke="#173F4F" stroke-width="2" />
+              <text x="315" y="195" font-family="'Space Grotesk',sans-serif" font-size="10" font-weight="700" fill="#173F4F">STAIR / FOYER</text>
+              <!-- Stair Treads -->
+              <line x1="290" y1="210" x2="395" y2="210" stroke="#C58B45" stroke-width="1.5" />
+              <line x1="290" y1="220" x2="395" y2="220" stroke="#C58B45" stroke-width="1.5" />
+              <line x1="290" y1="230" x2="395" y2="230" stroke="#C58B45" stroke-width="1.5" />
+              <line x1="290" y1="240" x2="395" y2="240" stroke="#C58B45" stroke-width="1.5" />
+              <line x1="290" y1="250" x2="395" y2="250" stroke="#C58B45" stroke-width="1.5" />
+              <text x="340" y="262" font-family="'Manrope',sans-serif" font-size="8" font-weight="700" fill="#173F4F">UP -></text>
+
+              <!-- Door Swings (Quarter Circles) -->
+              <path d="M 120 162 A 25 25 0 0 1 145 137" fill="none" stroke="#173F4F" stroke-width="1.5" stroke-dasharray="2,2" />
+              <line x1="120" y1="162" x2="120" y2="137" stroke="#173F4F" stroke-width="2" />
+
+              <path d="M 282 200 A 25 25 0 0 1 257 175" fill="none" stroke="#173F4F" stroke-width="1.5" stroke-dasharray="2,2" />
+              <line x1="282" y1="200" x2="257" y2="200" stroke="#173F4F" stroke-width="2" />
+
+              <!-- Dimension Lines -->
+              <line x1="40" y1="18" x2="410" y2="18" stroke="#173F4F" stroke-width="1" marker-start="url(#arrowCAD)" marker-end="url(#arrowCAD)" />
+              <text x="210" y="14" font-family="'Manrope',sans-serif" font-size="9" font-weight="700" fill="#173F4F">37'-0" (11.28 m)</text>
+
+              <line x1="22" y1="30" x2="22" y2="270" stroke="#173F4F" stroke-width="1" marker-start="url(#arrowCAD)" marker-end="url(#arrowCAD)" />
+              <text x="18" y="155" font-family="'Manrope',sans-serif" font-size="9" font-weight="700" fill="#173F4F" transform="rotate(-90 18 155)">24'-0" (7.32 m)</text>
+
+              <!-- North Arrow Symbol -->
+              <g transform="translate(425, 55)">
+                <circle cx="0" cy="0" r="14" fill="#FFFFFF" stroke="#173F4F" stroke-width="1.5" />
+                <polygon points="0,-11 -5,4 0,1 5,4" fill="#173F4F" />
+                <text x="-4" y="-14" font-family="'Space Grotesk',sans-serif" font-size="9" font-weight="700" fill="#173F4F">N</text>
+              </g>
+
+              <!-- Title Block Footer Inside Drawing -->
+              <rect x="40" y="285" width="370" height="32" fill="#FFFFFF" stroke="#D9DED9" stroke-width="1" rx="4" />
+              <text x="50" y="305" font-family="'Space Grotesk',sans-serif" font-size="9" font-weight="700" fill="#173F4F">PROJECT: 2BHK RESIDENTIAL</text>
+              <text x="235" y="305" font-family="'Manrope',sans-serif" font-size="8.5" fill="#5D6A6F">DRAFTER: SHAIK NAZEER</text>
+              <text x="360" y="305" font-family="'Manrope',sans-serif" font-size="8.5" font-weight="600" fill="#C58B45">AUTOCAD</text>
+            </svg>
+            
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-top:0.75rem; font-size:0.75rem; color:#5D6A6F;">
+              <span><i class="fa-solid fa-pencil" style="margin-right:0.35rem; color:#C58B45;"></i>Interactive CAD Board</span>
+              <span class="badge-freelance" style="font-size:0.65rem; padding:0.15rem 0.5rem; border-radius:4px;">DESIGN NOTES</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Scroll down indicator -->
+      <a href="#about" class="scroll-indicator" aria-label="Scroll to About section">
+        <i class="fa-solid fa-arrow-down" aria-hidden="true"></i>
+      </a>
+    </section>
+
+    <!-- ========================================================
+         3. ABOUT ME SECTION
+         ======================================================== -->
+    <section class="section reveal" id="about">
+      <div class="container">
+        <h2 style="margin-bottom: 2rem;">A little about me.</h2>
+        
+        <div class="about-intro">
+          <div class="profile-card">
+            <div class="profile-photo-wrap">
+              <img src="assets/images/nazeer-profile.png" alt="Shaik Nazeer, civil engineer" class="profile-photo" />
+            </div>
+            <div>
+              <span class="profile-label">CIVIL ENGINEERING / 2026</span>
+              <h3>Shaik Nazeer</h3>
+              <p>Design, drafting and site execution.</p>
+            </div>
+          </div>
+          <div class="about-text">
+            <p>
+              I'm currently pursuing my B.Tech in Civil Engineering at Lovely Professional University. I completed my Diploma in Civil Engineering and have gained exposure to both construction site work and architectural drafting through internships.
+            </p>
+            <p>
+              I'm interested in building design, construction planning, and developing practical engineering skills. I'm continuing to learn, work on projects, and build my future in civil engineering.
+            </p>
+          </div>
+        </div>
+
+        <div class="about-highlights">
+          <div class="highlight-card">
+            <div class="highlight-icon">
+              <i class="fa-solid fa-helmet-safety" style="color: #173F4F;"></i>
+            </div>
+            <h4>Civil Engineer</h4>
+            <p>Focused on structural principles, site execution standards, concrete technology, and material behavior.</p>
+          </div>
+
+          <div class="highlight-card">
+            <div class="highlight-icon">
+              <i class="fa-solid fa-compass-drafting" style="color: #173F4F;"></i>
+            </div>
+            <h4>CAD & BIM Learner</h4>
+            <p>Developing proficiency in AutoCAD for production drafting and exploring Revit for 3D building modeling.</p>
+          </div>
+
+          <div class="highlight-card">
+            <div class="highlight-icon">
+              <i class="fa-solid fa-house-chimney" style="color: #173F4F;"></i>
+            </div>
+            <h4>Building Design Enthusiast</h4>
+            <p>Passionate about residential floor plans, functional space distribution, and clear technical documentation.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         4. LEARNING JOURNEY TIMELINE
+         ======================================================== -->
+    <section class="section reveal" id="journey">
+      <div class="container">
+        <h2 style="margin-bottom: 1.5rem; text-align: center;">My Learning Journey</h2>
+        <p style="text-align: center; max-width: 600px; margin: 0 auto 3rem; color: #5D6A6F;">
+          A transparent overview of my education, practical site internships, and freelance architectural drafting practice.
+        </p>
+
+        <!-- Timeline Legend -->
+        <div class="timeline-legend">
+          <div class="legend-item">
+            <span class="legend-dot dot-education"></span>
+            <span>Education</span>
+          </div>
+          <div class="legend-item">
+            <span class="legend-dot dot-internship"></span>
+            <span>Site & Drafting Internships</span>
+          </div>
+          <div class="legend-item">
+            <span class="legend-dot dot-freelance"></span>
+            <span>Freelance Work</span>
+          </div>
+        </div>
+
+        <!-- Timeline Structure -->
+        <div class="timeline">
+          <!-- Item 1: Diploma -->
+          <div class="timeline-item">
+            <div class="timeline-dot dot-education"></div>
+            <div class="timeline-content">
+              <span class="timeline-type-badge badge-education">Education</span>
+              <div class="timeline-year">2021 - 2024</div>
+              <h3 class="timeline-title">Diploma in Civil Engineering</h3>
+              <div class="timeline-org">Anurag Group of Institutions</div>
+              <p style="font-size: 0.85rem; color: #5D6A6F; margin-top: 0.5rem; line-height: 1.5;">
+                Foundation in surveying, construction materials, building drawing fundamentals, and structural concepts.
+              </p>
+            </div>
+          </div>
+
+          <!-- Item 2: Trainee Drafter -->
+          <div class="timeline-item">
+            <div class="timeline-dot dot-internship"></div>
+            <div class="timeline-content">
+              <span class="timeline-type-badge badge-internship">Internship</span>
+              <div class="timeline-year">June - December 2023</div>
+              <h3 class="timeline-title">Trainee Drafter</h3>
+              <div class="timeline-org">SUGADH Construction & Consultancy Pvt. Ltd., Hyderabad</div>
+              <p style="font-size: 0.85rem; color: #5D6A6F; margin-top: 0.5rem; line-height: 1.5;">
+                Hands-on drafting in AutoCAD: 2D residential floor plans, exterior elevations, sectional cuts, dimensioning standards, and plotting.
+              </p>
+            </div>
+          </div>
+
+          <!-- Item 3: B.Tech -->
+          <div class="timeline-item">
+            <div class="timeline-dot dot-education"></div>
+            <div class="timeline-content">
+              <span class="timeline-type-badge badge-education">Education</span>
+              <div class="timeline-year">2024 - 2027 (Ongoing)</div>
+              <h3 class="timeline-title">B.Tech Civil Engineering</h3>
+              <div class="timeline-org">Lovely Professional University (LPU), Punjab</div>
+              <p style="font-size: 0.85rem; color: #5D6A6F; margin-top: 0.5rem; line-height: 1.5;">
+                Advanced study in structural analysis, geotechnical engineering, hydraulic structures, environmental engineering, and BIM.
+              </p>
+            </div>
+          </div>
+
+          <!-- Item 4: Site Engineer Trainee -->
+          <div class="timeline-item">
+            <div class="timeline-dot dot-internship"></div>
+            <div class="timeline-content">
+              <span class="timeline-type-badge badge-internship">Internship</span>
+              <div class="timeline-year">June - July 2025</div>
+              <h3 class="timeline-title">Site Engineer Trainee</h3>
+              <div class="timeline-org">BVR Construction Technologies Pvt. Ltd., Hyderabad</div>
+              <p style="font-size: 0.85rem; color: #5D6A6F; margin-top: 0.5rem; line-height: 1.5;">
+                Field supervision, rebar & shuttering checks, concrete pouring observation, site safety checks, and daily progress reporting.
+              </p>
+            </div>
+          </div>
+
+          <!-- Item 5: Freelance Practice -->
+          <div class="timeline-item">
+            <div class="timeline-dot dot-freelance"></div>
+            <div class="timeline-content">
+              <span class="timeline-type-badge badge-freelance">Freelance</span>
+              <div class="timeline-year">October 2026 Onward</div>
+              <h3 class="timeline-title">Freelance Residential Building Design</h3>
+              <div class="timeline-org">Independent Practice | Client Consultations</div>
+              <p style="font-size: 0.85rem; color: #5D6A6F; margin-top: 0.5rem; line-height: 1.5;">
+                Custom residential space planning, municipal-compliant 2D plans, working drawings, and direct client coordination.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         5. SKILLS I'M DEVELOPING
+         ======================================================== -->
+    <section class="section reveal" id="skills">
+      <div class="container">
+        <h2>Skills I'm Developing</h2>
+        <p style="color: #5D6A6F; max-width: 650px; margin-bottom: 2.5rem;">
+          Click on any skill to see how I apply it in my academic coursework, site training, or freelance drafting projects.
+        </p>
+
+        <div class="skills-grid">
+          <!-- Card 1: Design & Drafting -->
+          <div class="skill-category-card">
+            <div class="skill-category-title">
+              <i class="fa-solid fa-pen-ruler"></i>
+              <span>Design & Drafting</span>
+            </div>
+            <div class="skills-tags">
+              <button type="button" class="skill-tag" data-skill="AutoCAD">
+                <img class="software-icon" src="assets/images/ACAD ICON.png" alt="" aria-hidden="true" /> AutoCAD
+              </button>
+              <button type="button" class="skill-tag" data-skill="2D Floor Plans">
+                <i class="fa-solid fa-border-all"></i> 2D Floor Plans
+              </button>
+              <button type="button" class="skill-tag" data-skill="Elevations & Sections">
+                <i class="fa-solid fa-layer-group"></i> Elevations & Sections
+              </button>
+              <button type="button" class="skill-tag" data-skill="Architectural Drafting">
+                <i class="fa-solid fa-drafting-compass"></i> Architectural Drafting
+              </button>
+            </div>
+          </div>
+
+          <!-- Card 2: 3D & BIM -->
+          <div class="skill-category-card">
+            <div class="skill-category-title">
+              <i class="fa-solid fa-cube"></i>
+              <span>3D & BIM</span>
+            </div>
+            <div class="skills-tags">
+              <button type="button" class="skill-tag" data-skill="Revit">
+                <img class="software-icon" src="assets/images/REVITICON.png" alt="" aria-hidden="true" /> Revit
+              </button>
+              <button type="button" class="skill-tag" data-skill="3D Building Modeling">
+                <i class="fa-solid fa-building"></i> 3D Building Modeling
+              </button>
+              <button type="button" class="skill-tag" data-skill="BIM Fundamentals">
+                <i class="fa-solid fa-diagram-project"></i> BIM Fundamentals
+              </button>
+            </div>
+          </div>
+
+          <!-- Card 3: Civil Engineering & Site -->
+          <div class="skill-category-card">
+            <div class="skill-category-title">
+              <i class="fa-solid fa-hard-hat"></i>
+              <span>Civil Engineering & Site</span>
+            </div>
+            <div class="skills-tags">
+              <button type="button" class="skill-tag" data-skill="Site Supervision">
+                <i class="fa-solid fa-clipboard-check"></i> Site Supervision
+              </button>
+              <button type="button" class="skill-tag" data-skill="Drawing Interpretation">
+                <i class="fa-solid fa-map"></i> Drawing Interpretation
+              </button>
+              <button type="button" class="skill-tag" data-skill="Reinforcement & Formwork Inspection">
+                <i class="fa-solid fa-shield"></i> Reinforcement & Formwork Inspection
+              </button>
+              <button type="button" class="skill-tag" data-skill="Construction Quality Awareness">
+                <i class="fa-solid fa-certificate"></i> Construction Quality Awareness
+              </button>
+              <button type="button" class="skill-tag" data-skill="Quantity Estimation">
+                <img class="software-icon" src="assets/images/QUANTIITY SURVEY.jpg" alt="" aria-hidden="true" /> Quantity Estimation
+              </button>
+            </div>
+          </div>
+
+          <!-- Card 4: Structural Software -->
+          <div class="skill-category-card">
+            <div class="skill-category-title">
+              <i class="fa-solid fa-network-wired"></i>
+              <span>Structural Software</span>
+            </div>
+            <div class="skills-tags">
+              <button type="button" class="skill-tag" data-skill="STAAD.Pro">
+                <img class="software-icon" src="assets/images/STAAD ICON.jpg" alt="" aria-hidden="true" /> STAAD.Pro
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-note">
+          <i class="fa-solid fa-circle-info" style="color: #173F4F; margin-right: 0.5rem;"></i>
+          <strong>Honest Academic Note:</strong> As a student, I present skills based on real exposure and practical coursework rather than inflated percentages or seniority claims.
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         6. PROJECTS SECTION (MOST IMPORTANT)
+         ======================================================== -->
+    <section class="section reveal" id="projects">
+      <div class="container">
+        <h2>My Work</h2>
+        <p class="projects-intro">
+          A showcase of freelance residential floor plans, BIM academic modeling, and geotechnical simulation studies. Click any card to inspect detailed drawings, tools used, and engineering takeaways.
+        </p>
+
+        <div class="projects-layout">
+          <!-- Featured Project 1: Residential Building Design (Full width hero row) -->
+          <div class="project-hero-row">
+            <div class="project-card" data-project="residential-design" tabindex="0" role="button" aria-label="View Residential Building Design details">
+              <div class="project-card-visual tall">
+                <img class="floor-plan-image" src="assets/images/Screenshot 2026-10-27 234435.png" alt="Residential floor plan drawing" />
+                <div class="placeholder-label">Residential floor plan | AutoCAD study</div>
+              </div>
+
+              <div class="project-card-content">
+                <span class="project-number">PROJECT 01</span>
+                <div>
+                  <span class="project-category-badge">Freelance Design</span>
+                </div>
+                <h3 class="project-title">Residential Building Design</h3>
+                <p class="project-desc">
+                  Working on residential building layouts with a focus on space planning, clear dimensions, practical room arrangements, and understandable technical drawings for clients.
+                </p>
+                <div class="project-tools">
+                  <span class="tool-tag tool-icon-tag"><img src="assets/images/ACAD ICON.png" alt="" aria-hidden="true" /> AutoCAD</span>
+                  <span class="tool-tag">2D Drafting</span>
+                  <span class="tool-tag">Space Planning</span>
+                  <span class="tool-tag">Dimension Standards</span>
+                </div>
+                <span class="project-link">
+                  View Detailed Blueprint & Specs <i class="fa-solid fa-arrow-right"></i>
+                </span>
+              </div>
+            </div>
+
+            <!-- Project 1 Highlight Info Sidebar Card -->
+            <div class="highlight-card" style="display:flex; flex-direction:column; justify-content:space-between; height:100%;">
+              <div>
+                <span class="project-brief-label">DESIGN BRIEF</span>
+                <h3 style="margin-bottom:1rem; font-size:1.35rem;">Practical Residential Planning</h3>
+                <p style="color:#5D6A6F; font-size:0.925rem; line-height:1.7; margin-bottom:1.5rem;">
+                  Every layout prioritizes natural ventilation, ergonomic circulation pathways, standard door/window opening schedules, and compliance with residential building bylaws.
+                </p>
+                <div style="background:#F4F1EA; padding:1.25rem; border-radius:12px; margin-bottom:1.5rem; border-left:3px solid #173F4F;">
+                  <div style="font-weight:700; color:#173F4F; font-size:0.85rem; margin-bottom:0.25rem;">KEY DELIVERABLES:</div>
+                  <ul style="font-size:0.85rem; color:#42545A; padding-left:1.2rem; line-height:1.6;">
+                    <li>Furniture layout & room clearances</li>
+                    <li>Wall thickness & structural grid lines</li>
+                    <li>Door/Window schedule with lintel heights</li>
+                  </ul>
+                </div>
+              </div>
+              <button type="button" class="btn-secondary" onclick="document.querySelector('[data-project=\'residential-design\']').click()" style="width:100%; justify-content:center;">
+                Open Full Project Modal
+              </button>
+            </div>
+          </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         7. MY EXPERIENCE SECTION
+         ======================================================== -->
+    <section class="section reveal" id="experience">
+      <div class="container">
+        <h2>My Experience</h2>
+        <p style="color: #5D6A6F; max-width: 600px; margin-bottom: 3rem;">
+          Practical exposure gained on active construction sites and consultancy drafting desks.
+        </p>
+
+        <div class="experience-grid">
+          <!-- Experience 1: Site Engineer Trainee -->
+          <div class="exp-card">
+            <div class="exp-meta">
+              <span class="exp-type-badge badge-internship">Site Internship</span>
+              <div class="exp-period">June - July 2025</div>
+              <div class="exp-company">BVR Construction Technologies Pvt. Ltd.</div>
+              <div class="exp-location"><i class="fa-solid fa-location-dot"></i> Hyderabad, India</div>
+            </div>
+            <div class="exp-details">
+              <h3>Site Engineer Trainee</h3>
+              <ul>
+                <li>Observed and assisted in daily construction supervision on live residential and commercial sites.</li>
+                <li>Conducted rebar placement and formwork/shuttering alignment checks prior to concrete pouring.</li>
+                <li>Monitored concrete slump tests, cube sampling, and masonry construction alignment.</li>
+                <li>Practiced reading, verifying, and cross-checking structural execution drawings against on-site conditions.</li>
+                <li>Observed on-site material coordination, inventory logging, and worker safety protocols.</li>
+                <li>Maintained daily progress reports and logs under senior project engineers.</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Experience 2: Trainee Drafter -->
+          <div class="exp-card">
+            <div class="exp-meta">
+              <span class="exp-type-badge badge-internship">Drafting Internship</span>
+              <div class="exp-period">June - December 2023</div>
+              <div class="exp-company">SUGADH Construction & Consultancy Pvt. Ltd.</div>
+              <div class="exp-location"><i class="fa-solid fa-location-dot"></i> Hyderabad, India</div>
+            </div>
+            <div class="exp-details">
+              <h3>Trainee Drafter</h3>
+              <ul>
+                <li>Drafted comprehensive 2D floor plans, building elevations, and cross-sections in AutoCAD.</li>
+                <li>Maintained CAD layer standards, lineweights, dimension styles, and title block templates.</li>
+                <li>Prepared printable layout sheets and PDF plot sets for client review and site execution teams.</li>
+                <li>Assisted senior architects with spatial adjustments, window/door schedules, and 3D visualization concepts.</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Experience 3: Freelance Residential Building Design -->
+          <div class="exp-card">
+            <div class="exp-meta">
+              <span class="exp-type-badge badge-freelance">Freelance Practice</span>
+              <div class="exp-period">October 2026 Onward</div>
+              <div class="exp-company">Independent Practice</div>
+              <div class="exp-location"><i class="fa-solid fa-laptop-code"></i> Remote & On-Site Consultation</div>
+            </div>
+            <div class="exp-details">
+              <h3>Freelance Residential Building Design</h3>
+              <ul>
+                <li>Designing tailored residential floor plans with high attention to circulation and room ergonomics.</li>
+                <li>Producing clear, contractor-ready AutoCAD documentation with dimensioning and schedule notes.</li>
+                <li>Translating owner requirements into practical, buildable layout alternatives within budget limits.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         8. CURRENTLY EXPLORING
+         ======================================================== -->
+    <section class="section reveal" id="exploring">
+      <div class="container">
+        <h2>What's next on my engineering journey?</h2>
+        <p style="color: #5D6A6F; max-width: 600px; margin-bottom: 2.5rem;">
+          Engineering is continuous learning. Here are the core areas I am actively exploring and deepening as I progress toward graduation.
+        </p>
+
+        <div class="exploring-grid">
+          <div class="goal-card">
+            <span class="goal-icon"><i class="fa-solid fa-compass-drafting" aria-hidden="true"></i></span>
+            <div class="goal-title">AutoCAD & Revit Workflow</div>
+            <div class="goal-desc">Bridging 2D production drawings with 3D BIM data models for smoother design communication.</div>
+          </div>
+
+          <div class="goal-card">
+            <span class="goal-icon"><i class="fa-solid fa-helmet-safety" aria-hidden="true"></i></span>
+            <div class="goal-title">Site Execution Practices</div>
+            <div class="goal-desc">Deepening knowledge of practical shuttering systems, bar-bending schedules (BBS), and site troubleshooting.</div>
+          </div>
+
+          <div class="goal-card">
+            <span class="goal-icon"><i class="fa-solid fa-house-chimney" aria-hidden="true"></i></span>
+            <div class="goal-title">Better Residential Plans</div>
+            <div class="goal-desc">Studying passive solar orientation, climatic adaptation, and regional municipal building bylaws.</div>
+          </div>
+
+          <div class="goal-card">
+            <span class="goal-icon"><i class="fa-solid fa-chart-line" aria-hidden="true"></i></span>
+            <div class="goal-title">Structural & Estimation</div>
+            <div class="goal-desc">Strengthening analysis skills in STAAD.Pro and mastering detailed quantity surveying & rate analysis.</div>
+          </div>
+
+          <div class="goal-card">
+            <span class="goal-icon"><i class="fa-solid fa-folder-open" aria-hidden="true"></i></span>
+            <div class="goal-title">Stronger Engineering Portfolio</div>
+            <div class="goal-desc">Continuously archiving completed CAD drawings, site photos, and technical documentation into real case studies.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         9. CONTACT SECTION
+         ======================================================== -->
+    <section class="section reveal" id="contact">
+      <div class="container">
+        <h2 style="margin-bottom: 1rem;">Have an idea, project, or opportunity? Let's talk!</h2>
+        <p style="margin-bottom: 3.5rem;">
+          Whether you have a residential floor plan requirement, an internship opportunity, or want to discuss civil engineering - I'd love to connect.
+        </p>
+
+        <div class="contact-grid">
+          <!-- Left: Direct Contact Information -->
+          <div class="contact-info">
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+              <div>
+                <div style="font-size: 0.75rem; text-transform: uppercase; color: #C58B45; font-weight: 700; margin-bottom: 0.25rem;">Email Me</div>
+                <a href="mailto:nazeerbhai543@gmail.com">nazeerbhai543@gmail.com</a>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fa-solid fa-phone"></i>
+              </div>
+              <div>
+                <div style="font-size: 0.75rem; text-transform: uppercase; color: #C58B45; font-weight: 700; margin-bottom: 0.25rem;">Call / WhatsApp</div>
+                <a href="tel:+918463941316">+91 8463941316</a>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </div>
+              <div>
+                <div style="font-size: 0.75rem; text-transform: uppercase; color: #C58B45; font-weight: 700; margin-bottom: 0.25rem;">LinkedIn Profile</div>
+                <a href="https://www.linkedin.com/in/shaik-nazeer-976a84390/" target="_blank" rel="noopener noreferrer">
+                  shaik-nazeer-976a84390 ->
+                </a>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+              <div>
+                <div style="font-size: 0.75rem; text-transform: uppercase; color: #C58B45; font-weight: 700; margin-bottom: 0.25rem;">Location</div>
+                <div style="color: rgba(255,255,255,0.9); font-size: 0.95rem;">Amritsar/Ludhiana Area, Punjab, India</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: Interactive Contact Form -->
+          <div class="contact-form-container">
+            <form class="contact-form" id="contact-form" action="mailto:nazeerbhai543@gmail.com" method="get" enctype="text/plain">
+              <div class="form-group">
+                <label for="form-name" class="form-label">Your Name</label>
+                <input type="text" id="form-name" name="name" class="form-input" placeholder="e.g. Jaspreet Singh" required />
+              </div>
+
+              <div class="form-group">
+                <label for="form-email" class="form-label">Your Email</label>
+                <input type="email" id="form-email" name="email" class="form-input" placeholder="e.g. jaspreet@example.com" required />
+              </div>
+
+              <div class="form-group">
+                <label for="form-message" class="form-label">Message / Project Requirement</label>
+                <textarea id="form-message" name="message" class="form-textarea" placeholder="Tell me about your plot size, building plan requirement, or inquiry..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn-submit">
+                <span>Send Message</span>
+                <i class="fa-solid fa-paper-plane" style="margin-left: 0.5rem;"></i>
+              </button>
+
+              <div class="form-note">
+                <i class="fa-solid fa-shield-halved" style="margin-right: 0.25rem;"></i>
+                Direct email dispatch | You can also reach me directly at <strong>nazeerbhai543@gmail.com</strong>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========================================================
+       10. PROJECT DETAILS MODAL
+       ======================================================== -->
+  <div class="modal-overlay" id="project-modal" role="dialog" aria-modal="true" aria-label="Project Details">
+    <div class="modal-box" id="modal-box">
+      <!-- Populated dynamically via main.js openModal() -->
+    </div>
+  </div>
+
+  <!-- ========================================================
+       11. FOOTER
+       ======================================================== -->
+  <footer>
+    <div class="footer-inner">
+      <div>
+        (c) 2026 <strong>Shaik Nazeer</strong> | Civil Engineer. All rights reserved.
+      </div>
+      <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="https://www.linkedin.com/in/shaik-nazeer-976a84390/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="mailto:nazeerbhai543@gmail.com">Email</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Main JavaScript File -->
+  <script src="./assets/js/main.js?v=2"></script>
+</body>
+</html>
